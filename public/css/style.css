@@ -200,6 +200,18 @@
 .shop-page .single-product .image-box,.shop-page .single-product .product-name .add-to-cart,.shop-page .single-product .product-name .add-to-cart a,.shop-details .product-review-tab .nav-tabs .nav-link {
   transition: all .3s ease-in-out;
 }
+
+.service-style-one .single-service {
+  padding: 0 !important;
+}
+
+.service-style-one .single-service .text {
+  min-height: 280px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  border-left: 1px solid #eaeaea !important;
+}
 .tran4s,.our-solution .single-solution-block .icon,.our-case .single-case-block .hover-content .text,.our-blog .single-blog .image-box img {
   transition: all .4s ease-in-out;
 }
