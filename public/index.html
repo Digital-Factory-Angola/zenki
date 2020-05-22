@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="<%= BASE_URL %>css/responsive.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Fix Internet Explorer ______________________________________-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->	
   </head>
   <body>
     <noscript>
@@ -13,5 +23,28 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="<%= BASE_URL %>vendor/jquery.2.2.3.min.js"></script>
+    <!-- Popper js -->
+    <script src="<%= BASE_URL %>vendor/popper.js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="<%= BASE_URL %>vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Camera Slider -->
+    <script src='<%= BASE_URL %>vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+    <script src='<%= BASE_URL %>vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+    <script src='<%= BASE_URL %>vendor/Camera-master/scripts/camera.min.js'></script>
+    <!-- menu  -->
+    <script src="<%= BASE_URL %>vendor/menu/src/js/jquery.slimmenu.js"></script>
+    <!-- WOW js -->
+    <script src="<%= BASE_URL %>vendor/WOW-master/dist/wow.min.js"></script>
+    <!-- owl-carousel js -->
+    <script src="<%= BASE_URL %>vendor/owl-carousel/owl.carousel.min.js"></script>
+    <!-- js count to -->
+    <script src="<%= BASE_URL %>vendor/jquery.appear.js"></script>
+    <script src="<%= BASE_URL %>vendor/jquery.countTo.js"></script>
+
+    <!-- Theme js -->
+    <script src="<%= BASE_URL %>js/theme.js"></script>
   </body>
 </html>
