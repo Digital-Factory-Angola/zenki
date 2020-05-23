@@ -13,7 +13,7 @@
       <div class="wrapper">
         <div class="row">
           <div v-for="member in team" :key="member.image" class="col-lg-3 col-sm-6 col-12">
-            <div class="team-member">
+            <div class="team-member wow fadeInRight  animated">
               <div class="image-box">
                 <v-lazy-image :class="{'ajust': member.ajustObjectPosition}" :src="require(`@/assets/team/${member.image}.jpg`)" :alt="member.name" />
 

@@ -83,6 +83,21 @@ export const i18n = {
         Licenciado em Economia e pós-graduado em E-Business, tem 20 anos de experiência em consultoria de gestão e estratégia, imobiliário e gestão de empresas. 
         Foi consultor em diversos projectos no sectores público, saúde, banca, telcos, energia e justiça.
         É sócio e administrador do Zenki Group e Managing Partner da Zenki Real Estate, prestador de serviços imobiliários integrados que pertence à rede de afiliados da CBRE.`
+    },
+    address: {
+      pt: `
+        <h4>PORTUGAL</h4>
+        <ul>
+          <li>Telemóvel: +351 924 100 343</li>
+          <li>Morada: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
+          <li>Telefone: +351 214 261 450</li>
+        </ul>
+     `,
+      ao: `
+        <h4>ANGOLA</h4>
+        <p>Morada: R. Comandante Stona, Nº 278 Alvalade - Luanda</p>
+        <p>Telefone: +244 929 433 941</p>
+      `
     }
   },
   en: {
@@ -170,6 +185,20 @@ export const i18n = {
         Graduated on Economics and Post-Graduate in E-Business, has over 20 years of experience in management and strategic consulting, real estate and business management. 
         Has worked as consultant on several projects and industries, such as Infrastructure, Healthcare, Financial Services, Telecom, Energy, Government and Public Sector.
         Is a Zenki Group partner and board member and Zenki Real Estate Managing Partner.`
+    },
+    address: {
+      pt: `
+      <h4>PORTUGAL</h4>
+      <ul>
+        <li>Mobile: +351 924 100 343</li>
+        <li>Adress: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
+        <li>Phone: +351 214 261 450</li>
+      </ul>
+      `,
+      ao: `
+      <h4>ANGOLA</h4>
+      <p>Adress: R. Comandante Stona, Nº 278 Alvalade - Luanda</p>
+      <p>Phone: +244 929 433 941</p>`
     }
   }
 }

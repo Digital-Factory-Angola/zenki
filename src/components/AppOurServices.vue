@@ -17,7 +17,7 @@
       <div class="wrapper">
         <div class="row">
           <div v-for="item in rows" :key="item.image" class="col-xl-6 col-md-6 col-12">
-            <div class="single-service">
+            <div class=" wow fadeInUp animated single-service">
               <!-- <div class="img-box">
                 <img :src="item.image" alt="" />
               </div> -->

@@ -14,7 +14,7 @@
           </p> -->
         </div>
         <!-- /.theme-title-one -->
-        <div class="clearfix main-content no-gutters row">
+        <div class="clearfix wow fadeIn animated main-content no-gutters row">
           <div class="col-xl-6 col-lg-5 col-12">
             <div class="img-box">
               <v-lazy-image :src="require('@/assets/home/contact.jpg')" />

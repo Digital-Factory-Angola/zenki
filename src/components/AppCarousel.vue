@@ -5,18 +5,11 @@
   ==============================================
   -->
   <div id="theme-main-banner" class="banner-one">
-    <div data-src="/images/home/slide-1.jpg">
-      <div class="camera_caption">
-        <div class="container">
-          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" v-html="$t('carousel.first')">
-          </h1>
-        </div> <!-- /.container -->
-      </div> <!-- /.camera_caption -->
-    </div>
-    <div data-src="/images/home/slide-2.jpg">
-      <div class="camera_caption">
-        <div class="container">
-          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" v-html="$t('carousel.first')">
+    <div class="position-relative">
+      <img src="@/assets/home/slide-1.jpg" class="position-absolute  wow fadeIn animated" height="800" width="100%" style="z-index: 0" />
+      <div class="d-flex position-absolute align-items-center h-full w-full justify-content-center ">
+        <div>
+          <h1 class="wow fadeInUp animated" v-html="$t('carousel.first')">
           </h1>
         </div> <!-- /.container -->
       </div> <!-- /.camera_caption -->
@@ -25,8 +18,21 @@
 </template>
 
 <style lang="scss" scoped>
-.camera_caption h1 {
+h1 {
   color: #fff !important;
   text-align: center;
+  font-size: 52pt !important;
+}
+
+.position-relative {
+  height: 800px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
 }
 </style>

@@ -119,29 +119,6 @@
       return false;
     });
 
-
-
-    // --------------------------- Theme Main Banner Slider One
-    var banner = $("#theme-main-banner");
-    if (banner.length) {
-      banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
-        height: '780px',
-        pagination: false,
-        navigation: false,
-        thumbnails: false,
-        playPause: false,
-        pauseOnClick: false,
-        autoPlay: true,
-        hover: false,
-        overlayer: false,
-        loader: 'none',
-        minHeight: '400px',
-        time: 6000,
-      });
-    };
-
-
-
     // ----------------------------- Counter Function
     var timer = $('.timer');
     if (timer.length) {
