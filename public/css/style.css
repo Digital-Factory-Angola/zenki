@@ -793,11 +793,17 @@ body .theme-button-one:hover {background:#000f32; }
 .consultation-form .theme-title-one {margin-bottom: 55px;}
 .consultation-form .main-content {box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);}
 .consultation-form .img-box {
-  background: url(../images/home/contact.jpg) no-repeat center;
-  background-size: cover;
+  /* background: url(../images/home/contact.jpg) no-repeat center; */
   height: 500px;
   border-radius: 5px 0 0 5px;
+  overflow: hidden;
 }
+
+.consultation-form .img-box img{
+  object-fit: cover;
+  height: 100%;
+}
+
 .consultation-form .form-wrapper {
   background: #fff;
   border-radius: 0 5px 5px 0;

@@ -22,7 +22,7 @@
           <div class="modal-body">
             <div class="row">
               <div class="col-md-5">
-                <img :class="{'ajust': member.ajustObjectPosition}" :src="`images/team/${member.image}.jpg`" class="team-img" :alt="member.name" />
+                <v-lazy-image  :class="{'ajust': member.ajustObjectPosition}" :src="`images/team/${member.image}.jpg`" class="team-img" :alt="member.name" />
               </div>
               <div class="col-md-7">
                 <h2> {{ member.name }} </h2>
