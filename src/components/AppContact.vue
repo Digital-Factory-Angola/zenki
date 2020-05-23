@@ -7,11 +7,11 @@
     <div id="contact" class="consultation-form section-spacing">
       <div class="container">
         <div class="theme-title-one">
-          <h2>FREE CONSULTATION</h2>
-          <p>
+          <h2>{{ $t('menu.contact') }}</h2>
+          <!-- <p>
             A tale of a fateful trip that started from this tropic port aboard
             this tiny ship today stillers
-          </p>
+          </p> -->
         </div>
         <!-- /.theme-title-one -->
         <div class="clearfix main-content no-gutters row">
@@ -23,30 +23,21 @@
               <form action="#" class="theme-form-one">
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" placeholder="Name *">
+                    <input type="text" :placeholder="$t('contact.name')">
                   </div>
                   <div class="col-md-6">
-                    <input type="text" placeholder="Phone *">
-                  </div>
-                  <div class="col-md-6">
-                    <input type="email" placeholder="Email *">
-                  </div>
-                  <div class="col-md-6">
-                    <select id="exampleSelect1" class="form-control">
-                      <option>Service you’re looking for?</option>
-                      <option>Business Services</option>
-                      <option>Consumer Product</option>
-                      <option>Financial Services</option>
-                      <option>Software Research</option>
-                    </select>
+                    <input type="text" :placeholder="$t('contact.phone')">
                   </div>
                   <div class="col-12">
-                    <textarea placeholder="Message" />
+                    <input type="email" :placeholder="$t('contact.email')">
+                  </div>
+                  <div class="col-12">
+                    <textarea :placeholder="$t('contact.email')" />
                   </div>
                 </div>
                 <!-- /.row -->
-                <button class="theme-button-one">
-                  GET A QUOTES
+                <button class="float-right theme-button-one">
+                  {{ $t('contact.submit') }}
                 </button>
               </form>
             </div>
@@ -59,3 +50,14 @@
       <!-- /.container -->
     </div>
 </template>
+<style scoped>
+.theme-button-one {
+  background-color:#d8d8d8;
+  color: #212121;
+}
+
+.theme-button-one:hover {
+  color: #fff;
+  background-color: #8d8d8d;
+}
+</style>

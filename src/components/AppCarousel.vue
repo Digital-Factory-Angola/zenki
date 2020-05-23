@@ -8,8 +8,7 @@
     <div data-src="/images/home/slide-1.jpg">
       <div class="camera_caption">
         <div class="container">
-          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s">
-            Change is the vital energy <br /> for business
+          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" v-html="$t('carousel.first')">
           </h1>
         </div> <!-- /.container -->
       </div> <!-- /.camera_caption -->
@@ -17,8 +16,7 @@
     <div data-src="/images/home/slide-2.jpg">
       <div class="camera_caption">
         <div class="container">
-          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s">
-            Change is the vital energy <br /> for business
+          <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" v-html="$t('carousel.first')">
           </h1>
         </div> <!-- /.container -->
       </div> <!-- /.camera_caption -->

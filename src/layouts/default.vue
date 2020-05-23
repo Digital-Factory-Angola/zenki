@@ -32,3 +32,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.tran3s {
+  background-color:#d0d0d0 !important;
+  color: #212121;
+}
+</style>

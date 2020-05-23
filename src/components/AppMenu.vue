@@ -7,19 +7,19 @@
           <nav id="mega-menu-holder" class="clearfix">
             <ul class="clearfix navbar-nav flex-row d-flex">
               <li class="nav-item">
-                <a class="nav-link" href="#header">HOME</a>
+                <a class="nav-link" href="#header">{{ $t('menu.home') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#companies">COMPANIES</a>
+                <a class="nav-link" href="#companies">{{ $t('menu.companies') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">ABOUT US</a>
+                <a class="nav-link" href="#about">{{ $t('menu.about') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#our-team">OUR TEAM</a>
+                <a class="nav-link" href="#our-team">{{ $t('menu.our_team') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
+                <a class="nav-link" href="#contact">{{ $t('menu.contact') }}</a>
               </li>
             </ul>
           </nav>
@@ -42,14 +42,16 @@
                   ><i class="fa fa-linkedin" aria-hidden="true" /></a>
                 </li>
                 <li class="ml-4">
-                  <a
-                    href="#"
-                  >EN</a>
+                  <button
+                    :class="['lang', {'active': $i18n.locale === 'en' }]"
+                    @click="changeLocale('en')"
+                  >EN</button>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                  >PT</a>
+                  <button
+                    :class="['lang', {'active': $i18n.locale === 'pt' }]"
+                    @click="changeLocale('pt')"
+                  >PT</button>
                 </li>
               </ul>
             </li>
@@ -63,6 +65,18 @@
   </div>
   <!-- /.theme-menu-wrapper -->
 </template>
+
+<script>
+export default {
+  name: 'AppMenu',
+  methods: {
+    changeLocale (lang) {
+      sessionStorage.setItem('zenki-lang', lang)
+      this.$i18n.locale = lang
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 #mega-menu-holder > ul > li > a {
@@ -86,5 +100,16 @@
       padding-right:25px;
     }
   }
+}
+.lang {
+  background-color: transparent;
+}
+
+.lang:nth-child(1) {
+  margin-right: 10px;
+}
+.lang.active {
+  font-weight: bolder;
+  color: #fff !important;
 }
 </style>

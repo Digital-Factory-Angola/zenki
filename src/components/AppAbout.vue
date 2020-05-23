@@ -13,7 +13,7 @@
     <div id="about" class="theme-inner-banner section-spacing">
       <div class="overlay">
         <div class="container">
-          <h2>ABOUT</h2>
+          <h2 class="font-height">{{ $t('menu.about') }}</h2>
         </div>
         <!-- /.container -->
       </div>
@@ -28,16 +28,12 @@
       -->
     <div class="callout-banner no-bg">
       <div class="container clearfix">
-        <h3 class="title">
-          High-Quality <br />
-          Market Experinces
+        <h3 class="title" v-html="$t('about.focus_title')">
         </h3>
         <p>
-          A tale of a fateful trip that started from this tropic port aboard this
-          tiny ship today still wanted by the government they survive as soldiers
-          of fortune to ever wondered the east side to a deluxe apartment.
+          {{ $t('about.focus_market') }}
         </p>
-        <a href="#" class="theme-button-one">CONTACT US</a>
+        <a href="#contact" class="theme-button-one">{{ $t('menu.contact') }}</a>
       </div>
     </div>
     <!-- /.callout-banner -->
@@ -53,24 +49,14 @@
           <div class="row">
             <div class="col-lg-6 col-12 text order-lg-last">
               <div class="theme-title-one">
-                <h2>SHORT HISTORY</h2>
+                <h2>{{ $t('about.short_history') }}</h2>
               </div>
               <!-- /.theme-title-one -->
-              <p>
-                A tale of a fateful trip that started from this tropic port aboard
-                this tiny ship today still wanted by the government they survive
-                as soldiers of fortune to a deluxe you apartment in the sky to
-                explore strange new worlds to seek out new life and new
-                civilizations to boldly go where no man has gone.
-              </p>
-              <p>
-                You would see the biggest gift would be from me and the card
-                attached would so thank you for being a friend the biggest gift.
-              </p>
+              <div v-html="$t('about.description')"></div>
             </div>
             <!-- /.col- -->
             <div class="col-lg-6 col-12 order-lg-first">
-              <img src="images/home/about.jpg" alt="" class="left-img" />
+              <img src="images/home/about.jpg" alt="" style="height: 100%; object-fit: cover" class="left-img" />
             </div>
           </div>
           <!-- /.row -->
@@ -88,5 +74,9 @@
 .theme-button-one {
   background-color: #d8d8d8 !important;
   color: #000 !important;
+}
+
+.font-height {
+  font-size: 24pt !important;
 }
 </style>

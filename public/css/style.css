@@ -739,7 +739,7 @@ body .theme-button-one:hover {background:#000f32; }
   left:0;
   width: 100%;
   height: 100%;
-  background: rgba(0,26,87,0.7);
+  background: rgba(99, 99, 99, 0.7);
   border-radius: 5px 5px 0 0;
   -webkit-transform:scale(1,0);
           transform:scale(1,0);
@@ -951,14 +951,14 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-footer-one .top-footer .footer-newsletter ::-ms-input-placeholder { /* Microsoft Edge */
   color: #9ca6bf;
 }
-.theme-footer-one .bottom-footer {background: #001138;padding: 15px 0;}
-.theme-footer-one .bottom-footer p {color: #9ca6bf;line-height: 25px;font-size: 17px;}
+.theme-footer-one .bottom-footer {background: #d8d8d8;padding: 15px 0;}
+.theme-footer-one .bottom-footer p {color: #212121;line-height: 25px;font-size: 17px;}
 .theme-footer-one .bottom-footer ul {text-align: right;}
 .theme-footer-one .bottom-footer ul li {display: inline-block;line-height: 25px;}
 .theme-footer-one .bottom-footer ul li a {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
-  color: #9ca6bf;
+  color: #212121;
   margin-left: 35px;
 }
 .theme-footer-one .bottom-footer ul li a:hover  {color: #fff;}
@@ -1040,6 +1040,7 @@ body .theme-button-one:hover {background:#000f32; }
 .callout-banner .title {
   float: left;
   line-height: 40px;
+  font-size: 20pt;
   color: #fff;
   width: 27%;
 }

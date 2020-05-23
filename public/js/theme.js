@@ -35,6 +35,19 @@
         1000
       )
     })
+
+     //Smooth Scroll//
+     $('.theme-button-one').on('click', function(e) {
+      e.preventDefault()
+      var hash = this.hash
+      var position = $(hash).offset().top
+      $('html').animate(
+        {
+          scrollTop: position - 80
+        },
+        1000
+      )
+    })
     
     // ------------------------------ Theme Menu 
     var menu= $("#mega-menu-holder");

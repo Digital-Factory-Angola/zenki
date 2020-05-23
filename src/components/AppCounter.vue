@@ -7,8 +7,8 @@
     <div class="theme-counter section-spacing">
       <div class="container">
         <div class="bg">
-          <h6>Company Success</h6>
-          <h2>Some fun facts about our consulting</h2>
+          <!-- <h6>Company Success</h6>
+          <h2>Some fun facts about our consulting</h2> -->
 
           <div class="cunter-wrapper">
             <div class="row">

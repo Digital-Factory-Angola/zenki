@@ -22,14 +22,14 @@
                 <img :src="item.image" alt="" />
               </div> -->
               <div class="text">
-                <h5>{{ $t(item.name) }}</h5>
+                <h5>{{ item.name }}</h5>
                 <br />
                 <p>{{ $t(item.description) }}</p>
                 <a :href="item.url" class="read-more"
-                  >Abrir<i class="fa fa-angle-right" aria-hidden="true"
+                  >{{ item.url2 ?  $t('shared.openPTVersion') : $t('shared.open') }}<i class="fa fa-angle-right" aria-hidden="true"
                 /></a>
                 <a v-if="item.url2" :href="item.url" class="read-more"
-                  >Abrir<i class="fa fa-angle-right" aria-hidden="true"
+                  >{{ $t('shared.openAOVersion') }}<i class="fa fa-angle-right" aria-hidden="true"
                 /></a>
               </div>
               <!-- /.text -->
