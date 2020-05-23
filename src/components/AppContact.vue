@@ -17,7 +17,7 @@
         <div class="clearfix main-content no-gutters row">
           <div class="col-xl-6 col-lg-5 col-12">
             <div class="img-box">
-              <v-lazy-image  src="images/home/contact.jpg" />
+              <v-lazy-image :src="require('@/assets/home/contact.jpg')" />
             </div>
           </div>
           <div class="col-xl-6 col-lg-7 col-12">

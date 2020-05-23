@@ -15,7 +15,7 @@
           <div v-for="member in team" :key="member.image" class="col-lg-3 col-sm-6 col-12">
             <div class="team-member">
               <div class="image-box">
-                <v-lazy-image :class="{'ajust': member.ajustObjectPosition}" :src="`images/team/${member.image}.jpg`" :alt="member.name" />
+                <v-lazy-image :class="{'ajust': member.ajustObjectPosition}" :src="require(`@/assets/team/${member.image}.jpg`)" :alt="member.name" />
 
                 <div class="overlay">
                   <div class="hover-content">

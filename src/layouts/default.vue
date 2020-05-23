@@ -1,11 +1,11 @@
 <template>
   <div class="main-page-wrapper">
-    <!-- ===================================================
+    <!-- <!- ===================================================
       Loading Transition
-    ==================================================== -->
+    ====================================================
     <div id="loader-wrapper">
       <div class="lds-dual-ring"></div>
-    </div>
+    </div> -->
 
     <header id="header" class="header-one">
       <AppAddressHeader />

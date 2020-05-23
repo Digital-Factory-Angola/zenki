@@ -3,7 +3,7 @@
     <div class="container d-flex justify-content-center clearfix">
       <div class="logo">
         <router-link to="/">
-          <svg width="515" height="72" viewBox="0 0 515 277" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg height="100" viewBox="0 0 515 277" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect x="0.825333" y="0.894737" width="514" height="276" fill="url(#pattern0)"/>
             <defs>
             <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
