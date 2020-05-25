@@ -22,7 +22,7 @@
           <div class="modal-body">
             <div class="row">
               <div class="col-md-5">
-                <v-lazy-image  :class="{'ajust': member.ajustObjectPosition}" :src="`images/team/${member.image}.jpg`" class="team-img" :alt="member.name" />
+                <v-lazy-image  :class="{'ajust': member.ajustObjectPosition}" :src="require(`@/assets/team/${member.image}.jpg`)" class="team-img" :alt="member.name" />
               </div>
               <div class="col-md-7">
                 <h2> {{ member.name }} </h2>
@@ -60,7 +60,7 @@ export default {
     return {
       member: {
         name: '',
-        image: '',
+        image: 'DOR_bw',
         ocupation: '',
         description: ''
       }

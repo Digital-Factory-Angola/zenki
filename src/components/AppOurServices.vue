@@ -7,7 +7,7 @@
   <div id="companies" class="service-style-one section-spacing">
     <div class="container">
       <div class="theme-title-one">
-        <h2>Empresas integrantes</h2>
+        <h2>{{ $t('solutions.ourcompanies') }}</h2>
         <!-- <p>
           A tale of a fateful trip that started from this tropic port aboard
           this tiny ship today stillers
@@ -22,13 +22,13 @@
                 <img :src="item.image" alt="" />
               </div> -->
               <div class="text">
-                <h5>{{ item.name }}</h5>
+                <h5>{{ item.name.toUpperCase() }}</h5>
                 <br />
                 <p>{{ $t(item.description) }}</p>
                 <a :href="item.url" class="read-more"
                   >{{ item.url2 ?  $t('shared.openPTVersion') : $t('shared.open') }}<i class="fa fa-angle-right" aria-hidden="true"
                 /></a>
-                <a v-if="item.url2" :href="item.url" class="read-more"
+                <a v-if="item.url2" :href="item.url2" class="read-more"
                   >{{ $t('shared.openAOVersion') }}<i class="fa fa-angle-right" aria-hidden="true"
                 /></a>
               </div>
@@ -59,13 +59,13 @@ export default {
         {
           image: '/images/home/ZRE-01.png',
           name: 'Zenki Real Estate',
-          description: 'solutions.superbrands',
+          description: 'solutions.real',
           url: 'https://zenkirealestate.com/'
         },
         {
           image: '/images/home/logopt.png',
-          name: 'SUPERBRANDS PT',
-          description: 'solutions.real',
+          name: 'SUPERBRANDS',
+          description: 'solutions.superbrands',
           url: 'https://superbrands.sapo.pt/',
           url2: 'https://superbrands.sapo.ao'
         },

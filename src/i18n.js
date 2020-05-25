@@ -7,6 +7,7 @@ export const i18n = {
       employees: 'Colaboradores'
     },
     solutions: {
+      ourcompanies: 'Empresas integrantes',
       bus: `
         Agência de comunicação integrada (360º) que faz de cada projecto uma viagem apaixonada pelo mundo das Marcas. Ao volante tem uma equipa experiente, pronta a conduzir todas as Marcas a novos destinos, tendo já desenvolvido projectos em mais de 15 países.
       `,
@@ -108,6 +109,7 @@ export const i18n = {
       employees: 'Employees'
     },
     solutions: {
+      ourcompanies: 'Member companies',
       bus: `
         Integrated advertising agency (360º) assuming each project as passionate ride. With an experienced team, with relevant backgroung in nacional and internacional networks, it is ready for new destinations, having drawn projects in more than 15 different countries.
       `,

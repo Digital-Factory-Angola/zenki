@@ -36,15 +36,21 @@ h1 {
 
 @media (min-width: 768px) {
   .position-relative img {
-    min-height: 800px;
+    min-height: 100%;
   }
   .position-relative {
-    height: 800px;
+    height: 100%;
   }
 
   h1 {
     font-size: 52pt;
     line-height: 70px;
+  }
+}
+
+@media (min-width: 991px) {
+  #theme-main-banner {
+    height: 800px;
   }
 }
 

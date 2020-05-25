@@ -76,6 +76,8 @@
   color: #000 !important;
 }
 
+.section-spacing {margin: 120px 0; padding: 0; }
+
 .font-height {
   font-size: 24pt !important;
 }
