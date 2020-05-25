@@ -103,7 +103,7 @@ export default {
 }
 
 .modal .team-img {
-  height: 100%;
+  height: 400px;
   object-position: center;
   object-fit: cover;
 }
