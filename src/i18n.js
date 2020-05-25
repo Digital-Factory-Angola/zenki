@@ -7,7 +7,7 @@ export const i18n = {
       employees: 'Colaboradores'
     },
     solutions: {
-      ourcompanies: 'Empresas parceiras',
+      ourcompanies: 'Empresas integrantes',
       bus: `
         Agência de comunicação integrada (360º) que faz de cada projecto uma viagem apaixonada pelo mundo das Marcas. Ao volante tem uma equipa experiente, pronta a conduzir todas as Marcas a novos destinos, tendo já desenvolvido projectos em mais de 15 países.
       `,
