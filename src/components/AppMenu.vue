@@ -6,8 +6,10 @@
         <div class="menu-wrapper float-left">
           <nav id="mega-menu-holder" class="clearfix">
             <ul class="clearfix navbar-nav flex-row d-flex">
-              <li class="nav-item">
-                <a class="nav-link" href="#header">{{ $t('menu.home') }}</a>
+              <li class="nav-item web">
+                <a class="nav-link" href="#header">
+                  <span class="fa-2x icon-home" />
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#companies">{{ $t('menu.companies') }}</a>
@@ -28,32 +30,18 @@
         <!-- /.menu-wrapper -->
 
         <div class="right-widget float-right">
-          <ul class="d-flex">
-            <li class="social-icon">
-              <ul class="menu-ul d-flex">
-                <li>
-                  <a
-                    href="#"
-                  ><i class="fa fa-facebook" aria-hidden="true" /></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                  ><i class="fa fa-linkedin" aria-hidden="true" /></a>
-                </li>
-                <li class="ml-4">
-                  <button
-                    :class="['lang', {'active': $i18n.locale === 'en' }]"
-                    @click="changeLocale('en')"
-                  >EN</button>
-                </li>
-                <li>
-                  <button
-                    :class="['lang', {'active': $i18n.locale === 'pt' }]"
-                    @click="changeLocale('pt')"
-                  >PT</button>
-                </li>
-              </ul>
+          <ul class="menu-ul d-flex">
+            <li>
+              <button
+                :class="['lang', {'active': $i18n.locale === 'en' }]"
+                @click="changeLocale('en')"
+              >EN</button>
+            </li>
+            <li>
+              <button
+                :class="['lang', {'active': $i18n.locale === 'pt' }]"
+                @click="changeLocale('pt')"
+              >PT</button>
             </li>
           </ul>
         </div>
@@ -90,6 +78,15 @@ export default {
   content: unset;
 }
 
+.right-widget {
+  height: 100%;
+}
+.menu-ul {
+  height: 100%;
+}
+.fa-2x {
+  font-size: 2em;
+}
 .menu-ul > li{
   a{
     color: #212121 !important;
@@ -105,11 +102,54 @@ export default {
   background-color: transparent;
 }
 
+@media (min-width: 768px) {
+  #mega-menu-holder li, .theme-menu-wrapper .right-widget ul li {
+    display: flex;
+    align-items: center;
+  }
+
+  .bg-wrapper  {
+    height: 82px;
+    overflow: hidden;
+  }
+}
+
 .lang:nth-child(1) {
   margin-right: 10px;
 }
 .lang.active {
   font-weight: bolder;
   color: #fff !important;
+}
+</style>
+
+<style>
+
+.web {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .web {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: block !important;
+    background-color: #d8d8d8;
+  }
+  #mega-menu-holder {
+    border: 0;
+    width: 100vw;
+    left: -4.5%;
+    position: relative;
+    border-top: 1px solid #fff;
+  }
+
+  .menu-collapser {
+    margin-bottom: 14px;
+  }
 }
 </style>

@@ -26,7 +26,7 @@
               </div>
               <div class="col-md-7">
                 <h2> {{ member.name }} </h2>
-                <span class="sub-title"> {{ member.ocupation}} </span>
+                <i class="sub-title"> {{ member.ocupation}} </i>
                 <div class="text" v-html="$t(member.description).trim()"></div>
               </div>
             </div>

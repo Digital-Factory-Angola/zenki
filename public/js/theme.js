@@ -120,12 +120,22 @@
     });
 
     // ----------------------------- Counter Function
-    var timer = $('.timer');
-    if (timer.length) {
-      timer.appear(function () {
-        timer.countTo();
-      })
-    }
+    appear({
+      init: function init(){
+        console.log('dom is ready');
+      },
+      elements: function elements(){
+        return $('.timer')
+      },
+      appear: function appear(el){
+        $(el).countTo('restart');
+      },
+      disappear: function disappear(el){    
+        console.log('hide')
+      },
+      bounds: 200,
+      reappear: true
+    });
   });
 
 

@@ -30,9 +30,9 @@ export const i18n = {
 
       <p>O foco numa permanente energização e acompanhamento das mudanças são um factor decisivo da evolução constante nos diferentes negócios.</p>
       `,
-      short_history: 'Pequena história',
+      short_history: 'Uma energia Vital',
       focus_title: 'Alta Qualidade<br /> Experiências de Mercado',
-      focus_market: 'O foco na energização e monitorização permanente das mudanças é um factor decisivo na constante evolução dos diferentes negócios.'
+      focus_market: '"O foco na energização e monitorização permanente das mudanças é um factor decisivo na constante evolução dos diferentes negócios."'
     },
     carousel: {
       first: 'A mudança é a energia vital <br /> das organizações.'
@@ -58,8 +58,9 @@ export const i18n = {
     },
     shared: {
       open: 'Abrir',
-      openPTVersion: 'Abrir versão Portugal',
-      openAOVersion: 'Abrir versão Angola'
+      openPTVersion: 'Portugal',
+      openAOVersion: 'Angola',
+      showMap: 'Ver no mapa'
     },
     team: {
       rui_vargas: `
@@ -89,15 +90,14 @@ export const i18n = {
       pt: `
         <h4>PORTUGAL</h4>
         <ul>
-          <li>Telemóvel: +351 924 100 343</li>
-          <li>Morada: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
           <li>Telefone: +351 214 261 450</li>
+          <li>Morada: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
         </ul>
      `,
       ao: `
         <h4>ANGOLA</h4>
-        <p>Morada: R. Comandante Stona, Nº 278 Alvalade - Luanda</p>
         <p>Telefone: +244 929 433 941</p>
+        <p>Morada: R. Comandante Stona, Nº 278 Alvalade - Luanda</p>
       `
     }
   },
@@ -131,9 +131,9 @@ export const i18n = {
       
       <p>The focus on permanent energization and monitoring of changes is a decisive factor in the constant evolution in the different businesses.</p>
       `,
-      short_history: 'SHORT HISTORY',
+      short_history: 'A Vital Energy',
       focus_title: 'High-Quality<br /> Market Experinces ',
-      focus_market: 'The focus on permanent energization and monitoring of changes is a decisive factor in the constant evolution in the different businesses.'
+      focus_market: '"The focus on permanent energization and monitoring of changes is a decisive factor in the constant evolution in the different businesses."'
     },
     carousel: {
       first: 'Change is the vital energy <br /> for businesses.'
@@ -159,8 +159,9 @@ export const i18n = {
     },
     shared: {
       open: 'Open',
-      openPTVersion: 'Open Portugal version',
-      openAOVersion: 'Open Angola version'
+      openPTVersion: 'Portugal',
+      openAOVersion: 'Angola',
+      showMap: 'See on map'
     },
     team: {
       rui_vargas: `
@@ -192,15 +193,15 @@ export const i18n = {
       pt: `
       <h4>PORTUGAL</h4>
       <ul>
-        <li>Mobile: +351 924 100 343</li>
-        <li>Adress: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
         <li>Phone: +351 214 261 450</li>
+        <li>Adress: R. Cintura do Porto de Lisboa - Rocha Conde de Óbidos, Ed. 104 1350-352 Lisboa</li>
       </ul>
       `,
       ao: `
       <h4>ANGOLA</h4>
+      <p>Phone: +244 929 433 941</p>
       <p>Adress: R. Comandante Stona, Nº 278 Alvalade - Luanda</p>
-      <p>Phone: +244 929 433 941</p>`
+     `
     }
   }
 }

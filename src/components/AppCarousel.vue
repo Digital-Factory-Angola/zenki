@@ -23,6 +23,7 @@ h1 {
   text-align: center;
   font-size: 18pt;
   line-height: 1.5;
+  text-shadow: 0 3px 9px rgba($color: #000000, $alpha: 0.6);
 }
 
 .position-relative {
@@ -50,7 +51,7 @@ h1 {
 
 @media (min-width: 991px) {
   #theme-main-banner {
-    height: 800px;
+    height: 600px;
   }
 }
 

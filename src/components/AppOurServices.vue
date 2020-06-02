@@ -18,14 +18,13 @@
         <div class="row">
           <div v-for="item in rows" :key="item.image" class="col-xl-6 col-md-6 col-12">
             <div class=" wow fadeInUp animated single-service">
-              <!-- <div class="img-box">
-                <img :src="item.image" alt="" />
-              </div> -->
+              <div class="image d-block center-block bg-transparent">
+                <v-lazy-image :src="require(`@/assets/companies/${item.image}`)" alt="" />
+              </div>
               <div class="text">
-                <h5>{{ item.name.toUpperCase() }}</h5>
                 <br />
                 <p>{{ $t(item.description) }}</p>
-                <a :href="item.url" class="read-more"
+                <a v-if="item.url" :href="item.url" class="read-more"
                   >{{ item.url2 ?  $t('shared.openPTVersion') : $t('shared.open') }}<i class="fa fa-angle-right" aria-hidden="true"
                 /></a>
                 <a v-if="item.url2" :href="item.url2" class="read-more"
@@ -51,32 +50,42 @@ export default {
     rows () {
       return [
         {
-          image: '/images/home/bus.png',
+          image: 'bus.png',
           name: 'BUS',
           description: 'solutions.bus',
           url: 'https://www.busride.agency/'
         },
         {
-          image: '/images/home/ZRE-01.png',
+          image: 'zre.png',
           name: 'Zenki Real Estate',
           description: 'solutions.real',
           url: 'https://zenkirealestate.com/'
         },
         {
-          image: '/images/home/logopt.png',
+          image: 'superbrand.png',
           name: 'SUPERBRANDS',
           description: 'solutions.superbrands',
           url: 'https://superbrands.sapo.pt/',
           url2: 'https://superbrands.sapo.ao'
         },
         {
-          image: '/images/home/logo-ao.png',
+          image: 'consulting.png',
           name: 'ZENKI CONSULTING ESTATE',
-          description: 'solutions.consulting',
-          url: 'https://superbrands.sapo.ao/'
+          description: 'solutions.consulting'
+          // url: 'https://superbrands.sapo.ao/'
         }
       ]
     }
   }
 }
 </script>
+<style scoped>
+.image {
+  width: 100%;
+  max-height: 100px;
+}
+
+.image img {
+  width: 100px;
+}
+</style>

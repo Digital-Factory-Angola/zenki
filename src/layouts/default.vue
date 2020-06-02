@@ -15,7 +15,7 @@
     <AppFooter />
     <!-- Scroll Top Button -->
     <button class="scroll-top tran3s">
-      <i class="fa fa-angle-up" aria-hidden="true" />
+      <i class="icon-chevron-up" aria-hidden="true" />
     </button>
   </div>
 </template>

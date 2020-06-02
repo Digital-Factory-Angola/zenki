@@ -63,8 +63,6 @@
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 /*------- menu ------*/
 @import url('../vendor/menu/dist/css/slimmenu.css');
-/*----font awesome -------*/
-@import url('../fonts/font-awesome/css/font-awesome.min.css');
 /*----owl-carousel css----*/
 @import url('../vendor/owl-carousel/owl.carousel.css');
 @import url('../vendor/owl-carousel/owl.theme.css');
@@ -142,17 +140,6 @@
   opacity: 1;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-/*______________________ Global stlye ___________________*/
-
- @font-face {
-  font-family: 'font-awesome';
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
- }
-
  body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
@@ -193,17 +180,17 @@
 .shop-page .single-product .image-box,.shop-page .single-product .product-name .add-to-cart,.shop-page .single-product .product-name .add-to-cart a,.shop-details .product-review-tab .nav-tabs .nav-link {
   transition: all .3s ease-in-out;
 }
-
+/* 
 .service-style-one .single-service {
   padding: 0 !important;
-}
+} */
 
 .service-style-one .single-service .text {
-  min-height: 280px;
   display: flex;
   flex-direction:column;
   justify-content: center;
-  border-left: 1px solid #eaeaea !important;
+  margin-top: 20px;
+  /* border-left: 1px solid #eaeaea !important; */
 }
 .tran4s,.our-solution .single-solution-block .icon,.our-case .single-case-block .hover-content .text,.our-blog .single-blog .image-box img {
   transition: all .4s ease-in-out;
@@ -323,7 +310,6 @@ body .theme-button-one:hover {background:#000f32; }
 #polyglotLanguageSwitcher {margin-left:25px;}
 #polyglotLanguageSwitcher span.trigger:before {
   content: '';
-  font-family: 'font-awesome';
   position: absolute;
   color:#fff;
   top:0;
@@ -614,14 +600,11 @@ body .theme-button-one:hover {background:#000f32; }
 /*---------------- Service Style One --------------*/
 .service-style-one .single-service {
   position: relative;
-  padding-left: 118px;
   overflow: hidden;
   margin-bottom: 30px;
-}
-.service-style-one .single-service .text {
   border: 1px solid #eaeaea;
   border-radius: 0 4px 4px 0;
-  border-left:none;
+  min-height: 300px;
   padding: 20px 10px 18px 30px;
 }
 .service-style-one .single-service .text p {padding-bottom: 10px;}
@@ -675,7 +658,6 @@ body .theme-button-one:hover {background:#000f32; }
 }
 .testimonial-section .wrapper .bg:before {
   content: '';
-  font-family: 'font-awesome';
   position: absolute;
   top:30px;
   right: -10px;
@@ -787,7 +769,7 @@ body .theme-button-one:hover {background:#000f32; }
 .consultation-form .main-content {box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);}
 .consultation-form .img-box {
   /* background: url(../images/home/contact.jpg) no-repeat center; */
-  height: 500px;
+  height: 440px;
   border-radius: 5px 0 0 5px;
   overflow: hidden;
 }
@@ -800,7 +782,7 @@ body .theme-button-one:hover {background:#000f32; }
 .consultation-form .form-wrapper {
   background: #fff;
   border-radius: 0 5px 5px 0;
-  height: 500px;
+  height: 440px;
   padding: 75px 40px 0 40px;
 }
 .theme-form-one input,
@@ -903,7 +885,6 @@ body .theme-button-one:hover {background:#000f32; }
 }
 .theme-footer-one .top-footer .footer-list ul li:before {
   content: '';
-  font-family: 'font-awesome';
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -986,7 +967,6 @@ body .theme-button-one:hover {background:#000f32; }
 }
 .theme-footer-two .top-footer .footer-list ul li:before {
   content: '';
-  font-family: 'font-awesome';
   font-size: 10px;
   color: #9ca6bf;
   position: absolute;
@@ -1338,7 +1318,7 @@ body .theme-button-one:hover {background:#000f32; }
 .theme-inner-banner .overlay {
   /* background: rgba(0,26,87,0.4); */
   text-align: center;
-  padding: 110px 0 70px 0;
+  padding: 80px 0 80px 0;
 }
 .theme-inner-banner .overlay h2 {font-size: 45px;color: #fff;text-transform: uppercase;}
 /*------------------- Why WE Best -------------------*/

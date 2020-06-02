@@ -23,7 +23,7 @@
                       <li>
                         <button class="link" data-toggle="modal" @click="expand(member)">
                           <!-- data-target="#person" -->
-                          <i class="fa fa-external-link" aria-hidden="true"
+                          <i class="fa-1x icon-eye1" aria-hidden="true"
                         /></button>
                       </li>
                     </ul>
@@ -56,9 +56,9 @@ export default {
   computed: {
     team () {
       return [
-        { image: 'DOR_bw', name: 'DIOGO OSÓRIO RODRIGUES', ocupation: 'Partner & Board Member', description: 'team.diogo_rodrigues' },
-        { image: 'RV_bw', name: 'RUI VARGAS', ocupation: 'Co-founder, Board Member & CFO', description: 'team.rui_vargas', ajustObjectPosition: true },
         { image: 'GR_bw', name: 'GONÇALO OSÓRIO RODRIGUES', ocupation: 'Co-founder & CEO', description: 'team.goncalo_rodrigues' },
+        { image: 'RV_bw', name: 'RUI VARGAS', ocupation: 'Co-founder, Board Member & CFO', description: 'team.rui_vargas', ajustObjectPosition: true },
+        { image: 'DOR_bw', name: 'DIOGO OSÓRIO RODRIGUES', ocupation: 'Partner & Board Member', description: 'team.diogo_rodrigues' },
         { image: 'PDV_bw', name: 'PEDRO DIOGO VAZ', ocupation: 'Co-founder, Partner & Board Member', description: 'team.pedro_vaz' }
       ]
     }
@@ -92,6 +92,11 @@ export default {
   object-position: -15px center;
 }
 
+.fa-1x {
+  font-size: 1.2em;
+  margin-bottom: -1%;
+}
+
 .link {
   background-color: transparent;
   border-radius: 50%;
@@ -100,5 +105,7 @@ export default {
   height: 40px;
   width: 40px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 </style>

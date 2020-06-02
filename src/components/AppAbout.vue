@@ -30,7 +30,7 @@
       <div class="container clearfix">
         <h3 class="title" v-html="$t('about.focus_title')">
         </h3>
-        <p>
+        <p class="market-focus">
           {{ $t('about.focus_market') }}
         </p>
         <a href="#contact" class="theme-button-one">{{ $t('menu.contact') }}</a>
@@ -56,7 +56,7 @@
             </div>
             <!-- /.col- -->
             <div class="col-lg-6 col-12 order-lg-first">
-              <v-lazy-image :src="require('@/assets/home/about.jpg')" alt="" style="height: 400px; object-fit: cover" class="left-img"/>
+              <v-lazy-image :src="require('@/assets/home/about.jpg')" alt="" style="height: 400px; object-fit: cover; object-position: right" class="left-img"/>
             </div>
           </div>
           <!-- /.row -->
@@ -81,4 +81,6 @@
 .font-height {
   font-size: 24pt !important;
 }
+
+.market-focus {font-size: 16pt;}
 </style>
