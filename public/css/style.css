@@ -605,6 +605,7 @@ body .theme-button-one:hover {background:#000f32; }
   border: 1px solid #eaeaea;
   border-radius: 0 4px 4px 0;
   min-height: 300px;
+  height: 320px;
   padding: 20px 10px 18px 30px;
 }
 .service-style-one .single-service .text p {padding-bottom: 10px;}

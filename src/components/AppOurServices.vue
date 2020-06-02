@@ -18,7 +18,7 @@
         <div class="row">
           <div v-for="item in rows" :key="item.image" class="col-xl-6 col-md-6 col-12">
             <div class=" wow fadeInUp animated single-service">
-              <div class="image d-block center-block bg-transparent">
+              <div :class="{'ajust': item.ajust}" class="image d-block center-block bg-transparent">
                 <v-lazy-image :src="require(`@/assets/companies/${item.image}`)" alt="" />
               </div>
               <div class="text">
@@ -53,13 +53,15 @@ export default {
           image: 'bus.png',
           name: 'BUS',
           description: 'solutions.bus',
-          url: 'https://www.busride.agency/'
+          url: 'https://www.busride.agency/',
+          ajust: true
         },
         {
           image: 'zre.png',
           name: 'Zenki Real Estate',
           description: 'solutions.real',
-          url: 'https://zenkirealestate.com/'
+          url: 'https://zenkirealestate.com/',
+          ajust: true
         },
         {
           image: 'superbrand.png',
@@ -83,6 +85,16 @@ export default {
 .image {
   width: 100%;
   max-height: 100px;
+}
+
+@media (max-width: 768px) {
+  .image {
+    padding-left: 5px;
+  }
+
+  .image.ajust {
+    padding-left: 10px !important;
+  }
 }
 
 .image img {
