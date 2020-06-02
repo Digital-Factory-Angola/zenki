@@ -34,7 +34,7 @@
                     <input type="email" :placeholder="$t('contact.email')">
                   </div>
                   <div class="col-12">
-                    <textarea :placeholder="$t('contact.email')" />
+                    <textarea :placeholder="$t('contact.message')" />
                   </div>
                 </div>
                 <!-- /.row -->
