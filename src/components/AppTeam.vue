@@ -74,6 +74,9 @@ export default {
 </script>
 
 <style scoped>
+.our-team {
+  padding-bottom: 80px;
+}
 .image-box img {
   height: 300px;
   object-fit: cover;

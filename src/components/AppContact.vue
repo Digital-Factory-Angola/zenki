@@ -62,4 +62,8 @@
   color: #fff;
   background-color: #8d8d8d;
 }
+
+#contact {
+  padding-bottom: 80px;
+}
 </style>

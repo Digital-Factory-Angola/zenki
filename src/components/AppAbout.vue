@@ -43,7 +43,7 @@
         About Company Stye Two
       ==============================================
       -->
-    <div class="about-compnay-two no-bg section-spacing">
+    <div class="about-compnay-two no-bg">
       <div class="overlay">
         <div class="container">
           <div class="row">
@@ -76,7 +76,7 @@
   color: #000 !important;
 }
 
-.section-spacing {margin: 120px 0; padding: 0; }
+.section-spacing {margin: 80px 0; padding: 0; }
 
 .font-height {
   font-size: 24pt !important;
