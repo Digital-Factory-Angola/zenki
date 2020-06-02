@@ -121,17 +121,11 @@
 
     // ----------------------------- Counter Function
     appear({
-      init: function init(){
-        console.log('dom is ready');
-      },
       elements: function elements(){
         return $('.timer')
       },
       appear: function appear(el){
         $(el).countTo('restart');
-      },
-      disappear: function disappear(el){    
-        console.log('hide')
       },
       bounds: 200,
       reappear: true

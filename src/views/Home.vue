@@ -88,6 +88,20 @@ export default {
   }
 }
 
+@media (max-width: 768px) {
+  .modal .team-img {
+    height: 250px !important;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .modal .col-md-7 {
+    padding-right: 30px !important;
+    padding-left: 40px !important;
+  }
+}
+
 .modal-dialog {
   display: inline-block;
   text-align: left;

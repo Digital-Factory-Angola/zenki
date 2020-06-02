@@ -45,6 +45,13 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 991px) {
+
+  .service-style-one .single-service {
+    padding: 18px 10px;
+  }
+  .consultation-form .img-box img {
+    width: 100%;
+  }
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
   .top-feature .main-content {padding: 30px 15px;}
@@ -67,7 +74,7 @@
   .testimonial-section .overlay {padding: 75px 0;}
   .theme-counter {padding: 0;}
   .consultation-form .img-box {height: 250px;}
-  .consultation-form .form-wrapper {height: auto;padding: 40px 20px;}
+  .consultation-form .form-wrapper {height: auto;padding: 80px 20px;}
   .theme-footer-one .top-footer [class*="col-"],.theme-footer-two .top-footer [class*="col-"] {margin-bottom: 60px;}
   .theme-footer-one .top-footer {padding: 60px 0 0 0;}
   .header-one .theme-menu-wrapper {margin-bottom: -31px;}
