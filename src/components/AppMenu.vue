@@ -4,7 +4,7 @@
       <div class="bg-wrapper clearfix">
         <!-- ============== Menu Warpper ================ -->
         <div class="menu-wrapper float-left">
-          <nav id="mega-menu-holder" class="clearfix">
+          <nav id="mega-menu-holder" ref="megaMenuHolder" class="clearfix">
             <ul class="clearfix navbar-nav flex-row d-flex">
               <li class="nav-item web">
                 <a class="nav-link" href="#header">
@@ -12,16 +12,16 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#companies">{{ $t('menu.companies') }}</a>
+                <a class="nav-link" @click="hideMenuOnMobile" href="#companies">{{ $t('menu.companies') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">{{ $t('menu.about') }}</a>
+                <a class="nav-link" @click="hideMenuOnMobile" href="#about">{{ $t('menu.about') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#our-team">{{ $t('menu.our_team') }}</a>
+                <a class="nav-link" @click="hideMenuOnMobile" href="#our-team">{{ $t('menu.our_team') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">{{ $t('menu.contact') }}</a>
+                <a class="nav-link" @click="hideMenuOnMobile" href="#contact">{{ $t('menu.contact') }}</a>
               </li>
             </ul>
           </nav>
@@ -61,6 +61,13 @@ export default {
     changeLocale (lang) {
       sessionStorage.setItem('zenki-lang', lang)
       this.$i18n.locale = lang
+    },
+    hideMenuOnMobile () {
+      if (window.screen.availWidth < 768) {
+        if (this.$refs.megaMenuHolder.style.display !== 'none') {
+          this.$refs.megaMenuHolder.style.display = 'none'
+        }
+      }
     }
   }
 }
