@@ -98,6 +98,8 @@ export default {
 .fa-1x {
   font-size: 1.2em;
   margin-bottom: -1%;
+  display: flex;
+  align-items: center;
 }
 
 .link {

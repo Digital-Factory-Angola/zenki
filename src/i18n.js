@@ -64,23 +64,23 @@ export const i18n = {
     },
     team: {
       rui_vargas: `
-        Life isn't about finding yourself, it is about creating yourself
+        <i>Life isn't about finding yourself, it is about creating yourself</i>
 
         Licenciado em Matemática Aplicada à Economia e Gestão e com mais de 20 anos de experiência na área financeira.
         Iniciou-se na prestação de serviços de contabilidade e evoluiu para uma carreira na área financeira, onde desempenhou as funções de controller e gestor financeiro em várias empresas.
         Co-fundador do Zenki Group onde exerce as funções de Administrador e CFO, funções que acumula com a gestão de projetos de consultoria de negócio sob a marca Zenki Consultants.
       `,
       pedro_vaz: `
-        Não importa o que temos, mas o que fazemos com o que temos.
+        <i>Não importa o que temos, mas o que fazemos com o que temos.</i>
 
         Licenciado em Comunicação Empresarial, com uma pós-graduação em Comunicação e Cultura e um MBA em Gestão, tem ampla experiência em Gestão e Marketing, inicia a carreira na CP - Comboios de Portugal, onde colabora 12 anos entre a comunicação e o marketing. Lidera a BUS desde 2006, sendo ainda responsável pelo projecto SUPERBRANDS em Portugal e Angola. É ainda docente universitário, nas áreas de estratégia e comunicação.`,
       goncalo_rodrigues: `
-        It's all about networking
+        <i>It's all about networking</i>
 
         Licenciado em Comunicação Empresarial com uma pós-graduação em Gestão de Marketing pelo Instituto Superior de Economia e Gestão, tem-se dedicado desde 2005 à gestão do grupo Zenki, como co-founder e CEO, assumindo um papel preponderante na dinamização do negócio e identificação de oportunidades em diferentes geografias.
       `,
       diogo_rodrigues: `
-        Nós somos o que fazemos repetidamente, e assim a excelência não é um feito, mas sim um hábito.
+        <i>Nós somos o que fazemos repetidamente, e assim a excelência não é um feito, mas sim um hábito.</i>
 
         Licenciado em Economia e pós-graduado em E-Business, tem 20 anos de experiência em consultoria de gestão e estratégia, imobiliário e gestão de empresas. 
         Foi consultor em diversos projectos no sectores público, saúde, banca, telcos, energia e justiça.
@@ -165,25 +165,25 @@ export const i18n = {
     },
     team: {
       rui_vargas: `
-        Life isn't about finding yourself, it is about creating yourself
+        <i>Life isn't about finding yourself, it is about creating yourself</i>
 
         Graduated in Mathematics Applied to Economics and Management, has over 20 years of experience in the Financial area.
         Started his career as an accountant, assuming several roles as controller and finacial manager in several companies.
         Co-founder of Zenki Group, is actually Board Member and CFO, leading also business consultancy projects for Zenki Consultants.
       `,
       pedro_vaz: `
-        What you have, doesn't matter. The important is knowing what to do with what you have.
+        <i>What you have, doesn't matter. The important is knowing what to do with what you have.</i>
 
         Graduated in PR and Corporate Communication, has also an MBA, with a wide experience in Management, Marketing and Communication. Started his career in CP - Portuguese Railways as a PR and Marketing Manager, leading several kwey strategic projects for 12 years. Since 2006 leads BUS' operation in Portugal and Angola, as well as the Superbrands Project. It's also an university lecturer in areas such as strategic planning, marketing and communication. 
         Is a Zenki Group co-founder, Partner and Board Member.
       `,
       goncalo_rodrigues: `
-        It's all about networking
+        <i>It's all about networking</i>
 
         Graduated in Corporate Communication Licenciado, with a Master in Marketing Management from ISEG (Lisbon), has been commited since 2005 in managing Zenki Group, as co-founder and CEO, being responsible for growing business opportunities in several areas and countries.
       `,
       diogo_rodrigues: `
-        We are what we repeatedly do. Excellence, then, is not an act, but an habit.
+        <i>We are what we repeatedly do. Excellence, then, is not an act, but an habit.</i>
 
         Graduated on Economics and Post-Graduate in E-Business, has over 20 years of experience in management and strategic consulting, real estate and business management. 
         Has worked as consultant on several projects and industries, such as Infrastructure, Healthcare, Financial Services, Telecom, Energy, Government and Public Sector.
