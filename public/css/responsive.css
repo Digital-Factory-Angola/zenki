@@ -128,6 +128,9 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+  .service-style-one .single-service {
+    height: unset !important;
+  }
   .header-one .top-header {padding-bottom: 0;}
   .header-one .top-header .address-wrapper {display: none;}
   .testimonial-section .wrapper .bg {padding-left: 15px;padding-right: 15px;}
