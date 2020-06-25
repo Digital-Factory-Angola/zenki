@@ -12,25 +12,26 @@ export const i18n = {
         Agência de comunicação integrada (360º) que faz de cada projecto uma viagem apaixonada pelo mundo das Marcas. Ao volante tem uma equipa experiente, pronta a conduzir todas as Marcas a novos destinos, tendo já desenvolvido projectos em mais de 15 países.
       `,
       superbrands: `
-        Uma organização internacional independente, presente em 85 países, que se dedica à identificação e promoção das Marcas de Excelência que operam em cada mercado.
+        Uma organização internacional independente, presente em 85 países, que se dedica à identificação e promoção das Marcas de Excelência que actuam em cada mercado.
       `,
       real: `
-        Prestadora de serviços imobiliários em Angola, pertence à rede de afiliados da CBRE e oferece um conjunto de serviços integrados, que incluem consultoria estratégica e mediação em operações de venda e arrendamento de imóveis, promoção, investimento imobiliário, gestão de imóveis, gestão de projetos, serviços de avaliação e research.
-      `,
+        Prestadora de serviços imobiliários, pertence à rede de afiliados da CBRE e oferece um conjunto de serviços integrados, que incluem consultoria e mediação em operações de venda e arrendamento de imóveis, de promoção, de investimento imobiliário, apoio na gestão de imóveis, na gestão de projeto e serviços de avaliação, consultoria e research.      `,
       consulting: `
         Especialista em consultoria de negócio, distingue-se por uma atitude positiva e assertiva da sua actuação e na implementação de soluções.
       `
     },
     about: {
       description: `
-      <p>Zenki, do japonês ""Zen"" - mudar para melhor e ""Ki"" - energia vital.
-      Um propósito de energia de mudança e de evolução constante nos negócios.</p>
-
-      <p>Desde 2005 que o ZENKI GROUP põe em prática a sua fórmula - aliar paixão à realização de cada processo. Mais do que nunca, a visão estratégica é essencial e é com ela que o ZENKI GROUP desenvolve os seus negócios e assegura os serviços corporativos às suas participadas, em Portugal e Angola. </p>
-
-      <p>O foco numa permanente energização e acompanhamento das mudanças são um factor decisivo da evolução constante nos diferentes negócios.</p>
+      <p>Zenki" 前期  decorre da língua japonesa e representa o "momento inicial".
+      Deriva também da junção de duas palavras japonesas:
+      </p>
+      <ul>
+        <li>ZEN - Melhoria e sabedoria</li>
+        <li>KI - Energia Vital</li>
+      </ul>
+      <p>A Zenki assume-se assim como o ponto de partida, a energia vital para uma melhoria contínua, envolvendo este princípio em todos os projectos em que se envolve.</p>
       `,
-      short_history: 'Uma energia Vital',
+      short_history: 'ENERGIA VITAL DE MUDANÇA',
       focus_title: 'Alta Qualidade<br /> Experiências de Mercado',
       focus_market: '"O foco na energização e monitorização permanente das mudanças é um factor decisivo na constante evolução dos diferentes negócios."'
     },
@@ -39,7 +40,7 @@ export const i18n = {
     },
     contact: {
       name: 'Nome *',
-      phone: 'Telefone *',
+      phone: 'Telefone (Opcional) ',
       email: 'E-mail *',
       message: 'Mensagem *',
       options: `<option>Service you’re looking for?</option>
@@ -57,9 +58,9 @@ export const i18n = {
       contact: 'Contacte-nos'
     },
     shared: {
-      open: 'Abrir',
-      openPTVersion: 'Portugal',
-      openAOVersion: 'Angola',
+      open: 'Ver Website',
+      openPTVersion: 'flag-portugal',
+      openAOVersion: 'flag-angola',
       showMap: 'Ver no mapa'
     },
     team: {
@@ -116,7 +117,7 @@ export const i18n = {
       superbrands: `
         A Global Organisation responsible for distinguinshing the strongest and most valuable brands in the world, present in more than 85 countries.`,
       real: `
-        Full-service real estate provider, part of CBRE Affiliate Network, offers a range of integrated services, including facilities, transaction and project management; property management, investment management, appraisal and valuation, property leasing; strategic consulting, property sales and development services.
+        Full-service real estate provider, part of CBRE Affiliate Network, offers a range of integrated services, including advisory in sale and lease transactions, development, investment management, property management, project management, valuation, strategic consulting and research.
       `,
       consulting: `
         Management and consulting firm, specialized in business consulting, has a positive and assertive attitude in finding the best solutions for clients.
@@ -124,14 +125,18 @@ export const i18n = {
     },
     about: {
       description: `
-      <p>Zenki, from the Japanese ""Zen"" - changing for the better and ""Ki"" - vital energy.
-      A purpose of energy for change and constant evolution in business.</p>
+      <p>
+      Zenki" 前期 is derived from Japanese and represents the "initial moment".
+      It also derives from the junction of two Japanese words:
+      </p>
+      <ul>
+        <li>ZEN - Improvement and wisdom</li>
+        <li>KI - Vital Energy</li>
+      </ul>
 
-      <p>Since 2005, ZENKI GROUP has put its formula into practice - combining passion with the realization of each process. More than ever, the strategic vision is essential and with that, the ZENKI GROUP develops its business and provides corporate services to its subsidiaries, in Portugal and Angola.</p>
-      
-      <p>The focus on permanent energization and monitoring of changes is a decisive factor in the constant evolution in the different businesses.</p>
+      <p>Zenki is the starting point, the vital energy for continuous improvement, involving this principle in all the projects in which it is involved.</p>
       `,
-      short_history: 'A Vital Energy',
+      short_history: 'VITAL ENERGY OF CHANGE',
       focus_title: 'High-Quality<br /> Market Experinces ',
       focus_market: '"The focus on permanent energization and monitoring of changes is a decisive factor in the constant evolution in the different businesses."'
     },
@@ -140,7 +145,7 @@ export const i18n = {
     },
     contact: {
       name: 'Name *',
-      phone: 'Phone *',
+      phone: 'Phone (Optional)',
       email: 'Email *',
       options: `<option>Service you’re looking for?</option>
       <option>Business Services</option>
@@ -158,7 +163,7 @@ export const i18n = {
       contact: 'Contact US'
     },
     shared: {
-      open: 'Open',
+      open: 'Visit Website',
       openPTVersion: 'Portugal',
       openAOVersion: 'Angola',
       showMap: 'See on map'
@@ -172,15 +177,18 @@ export const i18n = {
         Co-founder of Zenki Group, is actually Board Member and CFO, leading also business consultancy projects for Zenki Consultants.
       `,
       pedro_vaz: `
-        <i>What you have, doesn't matter. The important is knowing what to do with what you have.</i>
-
-        Graduated in PR and Corporate Communication, has also an MBA, with a wide experience in Management, Marketing and Communication. Started his career in CP - Portuguese Railways as a PR and Marketing Manager, leading several kwey strategic projects for 12 years. Since 2006 leads BUS' operation in Portugal and Angola, as well as the Superbrands Project. It's also an university lecturer in areas such as strategic planning, marketing and communication. 
-        Is a Zenki Group co-founder, Partner and Board Member.
+        <b><i>More important than the assets you have, is what you do with them.</i></b>
+        
+        Graduated in PR and Corporate Communication, has an MBA and a wide experience in Management, Marketing and Communication. 
+        Started his career at CP - Portuguese Railways as PR and Marketing Manager, leading several kwey strategic projects for 12 years. 
+        Since 2006 leads BUS' operation, as well as the Superbrands Project, in both Portugal and Angola. 
+        As an university lecturer, teaches strategic planning, marketing and communication. 
+        Is a co-founder of Zenki Group, Partner and Board Member.
       `,
       goncalo_rodrigues: `
         <i>It's all about networking</i>
-
-        Graduated in Corporate Communication Licenciado, with a Master in Marketing Management from ISEG (Lisbon), has been commited since 2005 in managing Zenki Group, as co-founder and CEO, being responsible for growing business opportunities in several areas and countries.
+        
+        Graduated in Corporate Communication Licenciado, with a Master in Marketing Management  from ISEG (Lisbon), has been commited since 2005 in managing Zenki Group, as co-founder and CEO, being responsible for growing business opportunities in several areas and countries.
       `,
       diogo_rodrigues: `
         <i>We are what we repeatedly do. Excellence, then, is not an act, but an habit.</i>

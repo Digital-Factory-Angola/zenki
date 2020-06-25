@@ -52,7 +52,7 @@
                 <h2>{{ $t('about.short_history') }}</h2>
               </div>
               <!-- /.theme-title-one -->
-              <div v-html="$t('about.description')"></div>
+              <div class="html" v-html="$t('about.description')"></div>
             </div>
             <!-- /.col- -->
             <div class="col-lg-6 col-12 order-lg-first">
@@ -83,4 +83,13 @@
 }
 
 .market-focus {font-size: 16pt;}
+
+</style>
+<style>
+
+.html ul {
+  list-style: circle;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
 </style>

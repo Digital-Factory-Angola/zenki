@@ -24,12 +24,14 @@
               <div class="text">
                 <br />
                 <p>{{ $t(item.description) }}</p>
-                <a v-if="item.url" :href="item.url" class="read-more"
-                  >{{ item.url2 ?  $t('shared.openPTVersion') : $t('shared.open') }}<i class="fa fa-angle-right" aria-hidden="true"
-                /></a>
-                <a v-if="item.url2" :href="item.url2" class="read-more"
-                  >{{ $t('shared.openAOVersion') }}<i class="fa fa-angle-right" aria-hidden="true"
-                /></a>
+                <a v-if="item.url" target="__blank" :href="item.url" class="read-more d-flex">
+                  {{ $t('shared.open') }}
+                  <img v-if="item.url2" src="images/flag-portugal.png" style="margin-left: 5px" height="20" alt="flag-portugal" />
+                </a>
+                <a v-if="item.url2" target="__blank" :href="item.url2" class="read-more d-flex">
+                  {{ $t('shared.open') }}
+                  <img src="images/flag-angola.png" alt="flag-angola"  style="margin-left: 5px" height="20" />
+                </a>
               </div>
               <!-- /.text -->
             </div>

@@ -4,7 +4,7 @@
       <div class="logo">
         <router-link to="/">
           <svg
-            height="100"
+            height="150"
             viewBox="0 0 1541 778"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
