@@ -55,12 +55,18 @@
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
   .top-feature .main-content {padding: 30px 15px;}
-  .header-one .logo {width: 100%;text-align: center;margin-bottom: 20px;}
-  .header-one .top-header {padding-top: 25px;}
+  .header-one .logo {width: 100%;text-align: center;}
+  .header-one .top-header {padding: 15px !important;}
   .header-one .top-header .address-wrapper .address .icon {font-size: 30px;}
   .header-one .top-header .address-wrapper .address {padding: 0 20px 0 45px;margin-right: 0;}
   .header-one .theme-menu-wrapper .bg-wrapper {padding-left:0;}
-  .header-one .menu-wrapper,.header-two .menu-wrapper {position: absolute;width: 100%;left:0;top:0;z-index: 9;}
+  .header-one .menu-wrapper,.header-two .menu-wrapper {position: absolute;width: 100%;left:0;top:0;z-index: 9; height: 100%;}
+  .menu-ul {
+    height: unset !important;
+  }
+  .header-one .theme-menu-wrapper .bg-wrapper {
+    height: unset !important;
+  }
   .theme-menu-wrapper .right-widget ul li {line-height: 60px;}
   .theme-menu-wrapper .right-widget {position: relative;z-index: 99;}
   #mega-menu-holder>ul> li> a:before {display: none;}

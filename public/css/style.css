@@ -449,7 +449,7 @@ body .theme-button-one:hover {background:#000f32; }
   50%  {margin-top: -64px;opacity: 0;}
   100% {margin-top: 0;opacity: 1;}
 }
-.theme-menu-wrapper.fixed {
+#header.fixed, #header.fixed .theme-menu-wrapper {
   position: fixed !important;
   width:100%;
   top:0;
@@ -461,6 +461,16 @@ body .theme-button-one:hover {background:#000f32; }
   box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   -webkit-animation: menu_sticky 0.7s ease-in-out;
   animation: menu_sticky 0.7s ease-in-out;
+}
+
+#header.fixed .theme-menu-wrapper {
+position: relative !important;
+}
+svg {
+  transition: .26s;
+}
+#header.fixed .logo svg {
+  height: 60px !important;
 }
 .header-two .theme-menu-wrapper.fixed {background: #fff;}
 /*---------------------------- Theme Main Banner -------------------------*/

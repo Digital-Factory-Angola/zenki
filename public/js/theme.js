@@ -16,7 +16,7 @@
 
     // -------------------- Navigation Scroll
     $(window).on('scroll', function () {
-      var sticky = $('.theme-menu-wrapper'),
+      var sticky = $('#header'),
         scroll = $(window).scrollTop();
       if (scroll >= 190) sticky.addClass('fixed');
       else sticky.removeClass('fixed');
