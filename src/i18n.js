@@ -48,7 +48,12 @@ export const i18n = {
       <option>Consumer Product</option>
       <option>Financial Services</option>
       <option>Software Research</option>`,
-      submit: 'Enviar'
+      submit: 'Enviar',
+      modal_title_success: 'E-mail enviado',
+      modal_text_success: 'A sua menagem foi enviada com sucesso.',
+      modal_title_error: 'Preencha todos os campos!',
+      modal_text_error: 'Preencha todos os campos para efectuar o contacto.',
+      modal_ok: 'Está bem'
     },
     menu: {
       home: 'Página Inicial',
@@ -153,7 +158,12 @@ export const i18n = {
       <option>Financial Services</option>
       <option>Software Research</option>`,
       message: 'Message *',
-      submit: 'Submit'
+      submit: 'Submit',
+      modal_title_success: 'Email sent',
+      modal_text_success: 'Your message was sent successfully.',
+      modal_title_error: 'Fill in all the fields!',
+      modal_text_error: 'Fill in all the fields to make the contact.',
+      modal_ok: 'Ok'
     },
     menu: {
       home: 'Home',
