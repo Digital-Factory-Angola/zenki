@@ -22,7 +22,7 @@ export const i18n = {
     },
     about: {
       description: `
-      <p>Zenki" 前期  decorre da língua japonesa e representa o "momento inicial".
+      <p>Zenki 前期  decorre da língua japonesa e representa o "momento inicial".
       Deriva também da junção de duas palavras japonesas:
       </p>
       <ul>
@@ -131,7 +131,7 @@ export const i18n = {
     about: {
       description: `
       <p>
-      Zenki" 前期 is derived from Japanese and represents the "initial moment".
+      Zenki 前期 is derived from Japanese and represents the "initial moment".
       It also derives from the junction of two Japanese words:
       </p>
       <ul>
@@ -190,7 +190,7 @@ export const i18n = {
         <b><i>More important than the assets you have, is what you do with them.</i></b>
         
         Graduated in PR and Corporate Communication, has an MBA and a wide experience in Management, Marketing and Communication. 
-        Started his career at CP - Portuguese Railways as PR and Marketing Manager, leading several kwey strategic projects for 12 years. 
+        Started his career at CP - Portuguese Railways as PR and Marketing Manager, leading several key strategic projects for 12 years. 
         Since 2006 leads BUS' operation, as well as the Superbrands Project, in both Portugal and Angola. 
         As an university lecturer, teaches strategic planning, marketing and communication. 
         Is a co-founder of Zenki Group, Partner and Board Member.
@@ -198,7 +198,7 @@ export const i18n = {
       goncalo_rodrigues: `
         <i>It's all about networking</i>
         
-        Graduated in Corporate Communication Licenciado, with a Master in Marketing Management  from ISEG (Lisbon), has been commited since 2005 in managing Zenki Group, as co-founder and CEO, being responsible for growing business opportunities in several areas and countries.
+        Graduated in Corporate Communication, with a Master in Marketing Management  from ISEG (Lisbon), has been commited since 2005 in managing Zenki Group, as co-founder and CEO, being responsible for growing business opportunities in several areas and countries.
       `,
       diogo_rodrigues: `
         <i>We are what we repeatedly do. Excellence, then, is not an act, but an habit.</i>
