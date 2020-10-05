@@ -86,7 +86,7 @@ export default {
   methods: {
     sendemail () {
       if (this.user.nome && this.user.email && this.user.mensagem) {
-        axios.post('http://menon-dev.digitalfactory.co.ao/home/sendemailzenki', this.user).then(response => {
+        axios.post('https://menon-dev.digitalfactory.co.ao/home/sendemailzenki', this.user).then(response => {
           this.user.nome = ''
           this.user.telefone = ''
           this.user.email = ''
